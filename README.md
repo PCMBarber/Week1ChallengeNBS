@@ -2,61 +2,36 @@
 
 ## Tasks
 
-For this weeks challenge, you are tasked with recreating this database;
+For this weeks challenge, you are tasked with planning and estimating user stories and epics for a small sized project.
 
-- Create a new database for a zoo.
+The client (A large national cinema company) has requested a website capable of managing it's booking system,
+serving customers trailers of upcoming releases, and allowing staff members access to a backpage of booking information without giving them administrator rights.
 
-- Create 4 tables within this database:
+- The booking system should allow users to select the film they wish to view, amount and type of tickets, and then select seats they wish to view from.
+- The client will not be hosting the trailers videos, they have parnered with a video hosting website and will require a way to embedd the content.
+- Fully realised admin suite with control over systems developed.
+- Staff member portal with ability to view/create booking information.
 
-  - Staff
-  - Animals
-  - Assignments
-  - Pens
+You should create as many user stories as needed to fulfill the breif from 3 different perspectives;
 
-- Staff table:
+- A User
+- An Admin
+- A Staff Member
 
-|Staff_ID|Name|Years_Employed|
-|-|-|-|
-|**|**|**|
+User stories should have a Definition of Done (DoD) and a set of acceptance criteria.
+User stories should also have time estimations.
 
-- Animals table:
-
-|Animal_ID|Breed|Age|Name|Pen_ID|
-|-|-|-|-|-|
-|**|**|**|**|**|
-
-- Assignments table:
-
-|Assignment_ID|Staff_ID|Animal_ID|
-|-|-|-|
-|**|**|**|
-
-- Pens table:
-
-|Pen_ID|Size|Days_Since_Cleaned|
-|-|-|-|
-|**|**|**|
-
-- Populate the tables with dummy data.
-
-- Write and execute queries for the following:
-
-    1. All staff members that have been employed for longer than a given number of years.
-    2. All animals of a certain breed and younger than 3.
-    3. All staff members assigned to one particular animal.
-    4. The pen that has not been cleaned for the longest time.
-    5. Pens that have more than one animal in that have not been cleaned in 2 weeks.
+You should create epics your user stories can be grouped into.
 
 ## Stretch Goals
 
-1. All staff names assigned to a certain animal.
-2. The pen a given staff member is assigned to.
-3. All staff members who are working with an animal older than their length of employment.
-4. One staff member responsible for the pen that has not been cleaned for the longest period of time.
+- Rank your user stories and epics in terms of priority to the project.
+
+- Add additional features as user stories that could be implemented in the future.
 
 ## Submission
 
-You should create a public Github repository that contains your queries and create statements.
+You should create a public Github repository that contains your user stories and epics, as well as your estimations.
 You are also expected to make a README.md file and to fill this README with information of this challenge. It should contain the following headers.
 
 - What was the challenge?
